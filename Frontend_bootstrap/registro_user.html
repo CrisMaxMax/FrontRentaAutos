@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <title>RENT MOVIL</title>
+
+
+    <!-- Bootstrap core CSS -->
+<link href="../Fronted2/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+<link href="carousel.css" rel="stylesheet">
+</head>
+<body>
+  
+<header>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/Fronted2/index.html" style = "color: #371979; font-size: 22px;"> <strong> Rent Movil </strong> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+    
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <!--<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Mis pedidos</a>
+        </li>-->
+        <li class="nav-item">
+          <a class="nav-link" href="#" style = "color: #444; font-size: 16px;">Mis pedidos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style = "color: #444; font-size: 16px;">Iniciar Sesión</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Frontend_bootstrap/registro_user.html"style = "color: #444; font-size: 16px;">Registrarme</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-3" type="search" placeholder="¿En busqueda de algo?" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</header>
+
+      <!--Formulario para usuario-->
+
+    <br>
+    <br>
+    <br>
+    <h3> Crear una cuenta </h3>
+    <br>
+    
+<form class="form">
+  <div class="container">
+        
+    <div class="panel panel-default">
+        <div class="col-md-6">
+
+            <label for="validacionNombre" class="form-label">Correo electronico</label>
+            <input type="text" class="form-control" id="validacionCorreo" required>
+          <div class="invalid-feedback">
+            El correo es requerido
+          </div>
+  
+        </div>
+    
+        <div class="panel-body">
+            <div class="col-md-6">
+                <label for="validacionNombre" class="form-label">Nombres</label>
+                <input type="text" class="form-control" id="validacionNombre" required>
+                <div class="invalid-feedback">
+                  El nombre es requerido
+                </div>
+            </div>           
+        </div>
+
+        <div class="panel-body">
+          <div class="col-md-6">
+            <label for="validacionApellidos" class="form-label">Apellidos</label>
+            <input type="text" class="form-control" id="validacionApellidos" required>
+            <div class="invalid-feedback">
+              Los apellidos son requeridos
+            </div>
+          </div>
+        </div>
+
+        <div class ="panel-body">
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Tipo de identificación</label>
+            <select id="inputState" class="form-select">
+              <option selected>Elegir</option>
+              <option>Cedula</option>
+              <option>Tarjeta de identidad</option>
+              <option>Cedula de extrangeria</option>
+          
+            </select>
+          </div>
+        </div>
+
+        <div class ="panel-body">
+          <div class="col-md-3">
+            <label for="validacionCelular" class="form-label">Telefono Celular</label>
+            <input type="number" class="form-control" id="validacionCelular" required>
+            <div class="invalid-feedback">
+                El telefono celular es requerido
+            </div>
+          </div>
+        </div>
+
+        <div class ="panel-body">
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Ciudad</label>
+            <select id="inputState" class="form-select">
+              <option selected>Elegir</option>
+              <option>Medellin</option>
+              <option>Bogota</option>
+              <option>Cali</option>
+          
+            </select>
+          </div>
+        </div>
+        <br>
+        
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+      </form>
+        
+</div>
+        
